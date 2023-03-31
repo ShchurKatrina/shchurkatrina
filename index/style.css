@@ -98,7 +98,7 @@ font-family: Comic Sans MS, Comic Sans, cursive;}
 	background: #b68bc3;
 	display: block;
 	width: 160px; 
-	height: 40px; 
+	height: 50px; 
 	text-align:center; 
 	line-height: 40px;
 	margin-bottom: 1px;}
@@ -109,7 +109,8 @@ font-family: Comic Sans MS, Comic Sans, cursive;}
 	margin-bottom: 80px;
 	text-align:justify;
 	color: #636;
-	font-family:Georgia, Serif;}
+	font-family:Georgia, Serif;
+	font-size 80%;}
 .footer{ 
 	color: #444; 
 	text-align: center;
