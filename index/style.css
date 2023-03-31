@@ -111,6 +111,8 @@ font-family: Comic Sans MS, Comic Sans, cursive;}
 	color: #636;
 	font-family:Georgia, Serif;
 	font-size 80%;}
+.content h5{
+	text-align:center;}
 .footer{ 
 	color: #444; 
 	text-align: center;
