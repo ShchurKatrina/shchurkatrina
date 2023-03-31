@@ -98,7 +98,7 @@ font-family: Comic Sans MS, Comic Sans, cursive;}
 	background: #b68bc3;
 	display: block;
 	width: 160px; 
-	height: 50px; 
+	height: 70px; 
 	text-align:center; 
 	line-height: 40px;
 	margin-bottom: 1px;}
@@ -111,7 +111,7 @@ font-family: Comic Sans MS, Comic Sans, cursive;}
 	color: #636;
 	font-family:Georgia, Serif;
 	font-size 80%;}
-.content h5{
+.content h4{
 	text-align:center;}
 .footer{ 
 	color: #444; 
