@@ -35,7 +35,7 @@ background: url(ggg.jpeg);
 	margin-right: 0;}
 .span1	{width: 60px;}
 .span2	{width: 140px;}
-.span3	{width: 220px;}
+.span3	{width: 620px;}
 .span4	{width: 300px;}
 .span5	{width: 380px;}
 .span6	{width: 460px;}
@@ -63,14 +63,16 @@ background: url(ggg.jpeg);
 
 .header{	
 	margin-top: 20px;
+	color: #636;
 }
 
 .header h1{	
 	font-weight: bold;
-	text-shadow:1px 2px 0 rgba(255, 255, 255, .8);}
+	text-shadow:2px 3px 0 rgba(255, 255, 255, .8);
+font-family: Comic Sans MS, Comic Sans, cursive;}
 
 .search{	
-	margin-top: 20px;}
+	margin-top: 70px;}
 
 .search input{
 	width:100%;
@@ -79,7 +81,7 @@ background: url(ggg.jpeg);
 .slider{
 	height: 250px;	
 	width: 100%;
-	background: url(les.jpg);
+	background: url(https://img.tsn.ua/cached/523/tsn-39e40e7436a3d6b560ed018f4e4f6552/thumbs/x/ae/cd/4379f605e423f47b7ec92b4d64b3cdae.jpeg) 50% ;
 	box-shadow:0 5px 2px rgba(0, 0, 0, .2);}
 .thumb img{
 	box-shadow: 0 3px 2px rgba(0, 0, 0, .2);}
@@ -92,20 +94,25 @@ background: url(ggg.jpeg);
 
 .sidebar nav ul li a{ 
 	text-decoration: none; 
-	color:#eee;
-	background: red;
+	color: #636;
+	background: #b68bc3;
 	display: block;
-	width: 140px; 
+	width: 160px; 
 	height: 40px; 
 	text-align:center; 
 	line-height: 40px;
 	margin-bottom: 1px;}
-	.sidebar nav ul li a:hover{ background: #aaa;}
-.contcnt{
-	padding: 0 20px; 
-	margin-bottom: 80px;}
+.sidebar nav ul li a:hover{ background: #f5c7eb;}
+.content{
+	padding-left: 20px; 
+	padding-top: 10px; 
+	margin-bottom: 80px;
+	text-align:justify;
+	color: #636;
+	font-family:Georgia, Serif;}
 .footer{ 
 	color: #444; 
 	text-align: center;
 	border-top:1px dashed #888;
-	padding:40px 0;}
+	padding:40px 0;
+size: 120px;}
