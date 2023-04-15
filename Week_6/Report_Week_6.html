@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>З'єднання маркерів у багатокутник</title>
+		<script src="../aframe/aframe.min.js"></script>
+    		<script src="../ARjs/aframe-ar.js"></script>
+    		<script src="pentagon.js"></script>
+	</head>
+    	<body>
+        	<a-scene embedded arjs>
+			<a-marker type="pattern" url="../assets/markers/pattern-letterA.patt" registerevents id="A">
+				<a-sphere color="red" radius="0.10"></a-sphere>
+				<a-entity id="lineAB"></a-entity>
+			</a-marker>
+			<a-marker type="pattern" url="../assets/markers/pattern-letterB.patt" registerevents id="B">
+				<a-sphere color="red" radius="0.10"></a-sphere>
+				<a-entity id="lineBC"></a-entity>
+			</a-marker>
+			<a-marker type="pattern" url="../assets/markers/pattern-letterC.patt" registerevents id="C">
+				<a-sphere color="red" radius="0.10"></a-sphere>
+				<a-entity id="lineCD"></a-entity>
+			</a-marker>
+			<a-marker type="pattern" url="../assets/markers/pattern-letterD.patt" registerevents id="D">
+				<a-sphere color="red" radius="0.10"></a-sphere>
+				<a-entity id="lineDF"></a-entity>
+			</a-marker>
+			<a-marker type="pattern" url="../assets/markers/pattern-letterF.patt" registerevents id="F">
+				<a-sphere color="red" radius="0.10"></a-sphere>
+				<a-entity id="lineFA"></a-entity>
+			</a-marker>
+			<a-entity camera></a-entity>
+			<a-entity run></a-entity>
+        	</a-scene>
+	</body>
+</html>
