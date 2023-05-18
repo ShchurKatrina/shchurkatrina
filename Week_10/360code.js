@@ -1,5 +1,5 @@
-import * as THREE from "/Threejs/three.module.js";
-//import * as THREE from "three";
+//import * as THREE from "/Threejs/three.module.js";
+import * as THREE from "three";
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 var cube, lightTwo, torus, renderer, scene, camera, controls;
