@@ -84,7 +84,7 @@ function start()
 	material[0].map = loader.load("../Video/cube1.jpg");
 	material[1].map = loader.load("../Video/cube2.jpg");
 	material[2].map = loader.load("../Video/cube3.jpg");
-	//material[3].map = loader.load("/*file*/");
+	material[3].map = loader.load("../Video/cube5.jpg");
 	material[4].map = loader.load("../Video/cube4.jpg");
 	//material[5].map = loader.load("../Video/cube5.jpg");
 
@@ -99,13 +99,13 @@ function start()
 	const video = document.getElementById("videoA");
 	video.play();
 	const video_texture = new THREE.VideoTexture(video);
-	materialPlane.map = video_texture;
+	materialPlane.map = loader.load("../Video/cube3.jpg");
 	const video2 = document.getElementById("videoB");
 	video2.play();
 	const video_texture2 = new THREE.VideoTexture(video2);
 
-	material[3].map = video_texture2;
-	materialTorus.map = video_texture2;
+	//material[3].map = video_texture2;
+	materialTorus.map = loader.load("../Video/cube4.jpg");
 
 	camera.position.z = 5;
 	controls.update();
