@@ -13,12 +13,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 	renderer.setPixelRatio(window.devicePixelRatio);
 	document.body.appendChild(renderer.domElement);
 
-	const geometry = new THREE.BoxGeometry(0.06, 0.06, 0.06);
-	const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
-	const mesh = new THREE.Mesh(geometry, material);
-	mesh.position.set(0, 0, -0.3);
-	scene.add(mesh);
-
 	const texture1 = new THREE.TextureLoader().load("../assets/textures/2k_sun.jpg"); 
 	const materialTexture1 = new THREE.MeshBasicMaterial( { map:texture1 } );
 	const texture2 = new THREE.TextureLoader().load("../assets/textures/2k_neptune.jpg"); 
@@ -61,7 +55,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	scene.add(group);
 	
 	group.position.set(0, 0, -0.5);
-	group.scale.set(0.05, 0.05, 0.05);
+	group.scale.set(0.01, 0.01, 0.01);
 
 	let t=0;
 	
